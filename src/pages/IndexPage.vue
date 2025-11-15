@@ -47,7 +47,7 @@ generic-panel(
               div.row.items-center.justify-center
                 div.col-xs-12.text-center
                   div.row.justify-center.items-center
-                    div(data-aos="fade-up").col-xs-12.col-md-3.q-pa-sm
+                    div(data-aos="fade-up" data-aos-delay="0").col-xs-12.col-md-3.q-pa-sm
                       a(href="https://stripe.com?ref=https://ossph.org" target="_blank")
                         q-img(
                           src="../assets/images/stripe-logo.png"
@@ -56,7 +56,7 @@ generic-panel(
                           alt="Stripe Logo"
                         )
                         q-tooltip Stripe
-                    div(data-aos="fade-up").col-xs-12.col-md-3.q-pa-sm
+                    div(data-aos="fade-up" data-aos-delay="100").col-xs-12.col-md-3.q-pa-sm
                       a(href="https://www.microsoft.com/en-us?ref=https://ossph.org" target="_blank")
                         q-img(
                           src="../assets/images/microsoft-logo.png"
@@ -65,7 +65,7 @@ generic-panel(
                           alt="Microsoft Logo"
                         )
                         q-tooltip Microsoft
-                    div(data-aos="fade-up").col-xs-12.col-md-3.q-pa-sm
+                    div(data-aos="fade-up" data-aos-delay="200").col-xs-12.col-md-3.q-pa-sm
                       a(href="https://www.edukasyon.ph?ref=https://ossph.org" target="_blank")
                         q-img(
                           src="../assets/images/edukasyon.jpg"
@@ -74,7 +74,7 @@ generic-panel(
                           alt="Edukasyon.ph Logo"
                         )
                         q-tooltip Edukasyon.ph
-                    div(data-aos="fade-up").col-xs-12.col-md-3.q-pa-sm
+                    div(data-aos="fade-up" data-aos-delay="300").col-xs-12.col-md-3.q-pa-sm
                       a(href="https://www.facebook.com/AWS.SiklabPH/?ref=https://ossph.org" target="_blank")
                         q-img(
                           src="../assets/images/aws-siklab-logo.png"
@@ -83,7 +83,7 @@ generic-panel(
                           alt="AWS Siklab Logo"
                         )
                         q-tooltip AWS Siklab
-                    div(data-aos="fade-up").col-xs-12.col-md-3.q-pa-sm
+                    div(data-aos="fade-up" data-aos-delay="400").col-xs-12.col-md-3.q-pa-sm
                       a(href="https://web3philippines.org/?ref=https://ossph.org" target="_blank")
                         q-img(
                           src="../assets/images/web3phl-logo.png"
